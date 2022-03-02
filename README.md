@@ -1,3 +1,5 @@
 # portfolio-project
-A simple html page
-portfolio.html
+A simple html portfolio page
+files:
+1- index.html
+2- porfolio.css

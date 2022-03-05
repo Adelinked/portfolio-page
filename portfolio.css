@@ -120,30 +120,30 @@ header>p {
 }
 
 #projects>h2 {
-    text-align: center;
-    color: var(--color-white);
-    font-size: 2rem;
-    margin: 20px 0;
+  text-align: center;
+  color: var(--color-white);
+  font-size: 2rem;
+  margin: 20px 0;
 }
 
 #projects-div {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 80vh);
-    grid-gap: 15px;
-    padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 80vh);
+  grid-gap: 15px;
+  padding: 10px;
 }
 
 .project-tile {
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    justify-content: space-between;
-    background-color: var(--color-bgd);
-    border: 2px solid var(--color-white-transp);
-    border-radius: 5px;
-    z-index: 1;
-    box-shadow: 2px 2px 5px var(--color-bgd);
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: space-between;
+  background-color: var(--color-bgd);
+  border: 2px solid var(--color-white-transp);
+  border-radius: 5px;
+  z-index: 1;
+  box-shadow: 2px 2px 5px var(--color-bgd);
 }
 
 .project-tile:hover, .project-tile:focus-within {
@@ -170,6 +170,8 @@ header>p {
 #projects-div h2 { 
   margin-top: 15px;
   text-align: center;
+  font-size: 1.4rem;
+
 }
 
 #profile-link {

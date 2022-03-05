@@ -146,11 +146,7 @@ header>p {
     box-shadow: 2px 2px 5px var(--color-bgd);
 }
 
-.project-tile:hover {
-    border: 2px solid var(--color-white);
-}
-
-.project-tile:focus-within {
+.project-tile:hover, .project-tile:focus-within {
   border: 2px solid var(--color-white);
 }
 
@@ -162,11 +158,12 @@ header>p {
   opacity: 0.5;
 }
 
-.project-tile a:hover img {
+
+.project-tile a:hover, a:focus img {
   opacity: 1;
 }
 
-.project-tile a:focus img {
+.project-tile a:focus, a:hover img {
   opacity: 1;
 }
 

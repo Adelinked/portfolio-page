@@ -102,7 +102,7 @@ header>p {
     text-justify: distribute;
 }
 
-.welcome-divs h3 {
+.welcome-divs h2 {
     font-size: 1.2rem;
     margin-top: 20px;
     margin-bottom: 5px;
@@ -146,12 +146,8 @@ header>p {
     box-shadow: 2px 2px 5px var(--color-bgd);
 }
 
-.project-tile:hover{
+.project-tile:hover {
     border: 2px solid var(--color-white);
-}
-
-.project-tile a:hover, a:focus img {
-  opacity: 1;
 }
 
 .project-tile:focus-within {
@@ -159,48 +155,56 @@ header>p {
 }
 
 .project-tile img {
-    display: block;
-    width: 100%;
-    height: 70vh;
-    object-fit: cover;
-    opacity: 0.5;
+  display: block;
+  width: 100%;
+  height: 70vh;
+  object-fit: cover;
+  opacity: 0.5;
 }
 
-#projects-div h2 {
-    margin-top: 15px;
-    text-align: center;
+.project-tile a:hover img {
+  opacity: 1;
+}
+
+.project-tile a:focus img {
+  opacity: 1;
+}
+
+#projects-div h2 { 
+  margin-top: 15px;
+  text-align: center;
 }
 
 #profile-link {
-    margin: 10px 0;
-    text-decoration: none;
-    width: 120px;
-    padding: 10px 5px;
-    text-align: center;
-    background-color: var(--color-bgd);
-    border: 2px solid var(--color-white-transp);
-    font-weight: 800;
-    font-size: 1.3rem;
-    border-radius: 5px;
-    box-shadow: 2px 2px 3px var(--color-bgd);
+  margin: 10px 0;
+  text-decoration: none;
+  width: 120px;
+  padding: 10px 5px;
+  text-align: center;
+  background-color: var(--color-bgd);
+  border: 2px solid var(--color-white-transp);
+  font-weight: 800;
+  font-size: 1.3rem;
+  border-radius: 5px;
+  box-shadow: 2px 2px 3px var(--color-bgd);
 }
 
 #profile-link:hover, #profile-link:focus {
-    border: 2px solid var(--color-white);
+  border: 2px solid var(--color-white);
 }
 
 #contact {
-    padding: 30px 10px;
-    height: 40vh;
-    background-color: var(--color-bgd);
-    color: var(--color-white);
-    text-align: center;
+  padding: 30px 10px;
+  height: 40vh;
+  background-color: var(--color-bgd);
+  color: var(--color-white);
+  text-align: center;
 }
 
-#contact h3 {
-    font-size: 2rem;
-    font-weight: 600;
-    margin-bottom: 10px;
+#contact h3 { 
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 10px;
 }
 
 #contact p {
